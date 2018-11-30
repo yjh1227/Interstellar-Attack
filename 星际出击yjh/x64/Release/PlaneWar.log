@@ -1,0 +1,60 @@
+﻿生成启动时间为 2017/12/25 14:20:32。
+     1>项目“F:\星际出击\星际出击\星际出击\PlaneWar.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\StarAttach.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\StarAttach.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Ball.cpp Blood.cpp Bomb.cpp Boss.cpp ClassView.cpp Enemy.cpp Explosion.cpp FileView.cpp GameObject.cpp MainFrm.cpp MyDialog.cpp MyPlane.cpp OutputWnd.cpp PlaneWar.cpp PlaneWarDoc.cpp PlaneWarView.cpp PropertiesWnd.cpp RestartDialog.cpp Scene.cpp ViewTree.cpp
+         Ball.cpp
+         Blood.cpp
+         Bomb.cpp
+         Boss.cpp
+         ClassView.cpp
+         Enemy.cpp
+         Explosion.cpp
+         FileView.cpp
+         GameObject.cpp
+         MainFrm.cpp
+     1>MainFrm.cpp(199): warning C4101: “bNameValid”: 未引用的局部变量
+         MyDialog.cpp
+         MyPlane.cpp
+         OutputWnd.cpp
+         PlaneWar.cpp
+         PlaneWarDoc.cpp
+         PlaneWarView.cpp
+         PropertiesWnd.cpp
+         RestartDialog.cpp
+         Scene.cpp
+         ViewTree.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Release\ /nologo /fo"x64\Release\PlaneWar.res" PlaneWar.rc 
+       Link:
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\星际出击\星际出击\星际出击\x64\Release\StarAttach.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\星际出击\星际出击\星际出击\x64\Release\StarAttach.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\星际出击\星际出击\星际出击\x64\Release\StarAttach.lib" /MACHINE:X64 x64\Release\PlaneWar.res
+         x64\Release\Ball.obj
+         x64\Release\Blood.obj
+         x64\Release\Bomb.obj
+         x64\Release\Boss.obj
+         x64\Release\ClassView.obj
+         x64\Release\Enemy.obj
+         x64\Release\Explosion.obj
+         x64\Release\FileView.obj
+         x64\Release\GameObject.obj
+         x64\Release\MainFrm.obj
+         x64\Release\MyDialog.obj
+         x64\Release\MyPlane.obj
+         x64\Release\OutputWnd.obj
+         x64\Release\PlaneWar.obj
+         x64\Release\PlaneWarDoc.obj
+         x64\Release\PlaneWarView.obj
+         x64\Release\PropertiesWnd.obj
+         x64\Release\RestartDialog.obj
+         x64\Release\Scene.obj
+         x64\Release\stdafx.obj
+         x64\Release\ViewTree.obj
+         正在生成代码
+         已完成代码的生成
+         PlaneWar.vcxproj -> F:\星际出击\星际出击\星际出击\x64\Release\StarAttach.exe
+     1>已完成生成项目“F:\星际出击\星际出击\星际出击\PlaneWar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.19

@@ -1,0 +1,61 @@
+﻿生成启动时间为 2018/1/2 11:08:25。
+     1>项目“I:\星际出击yjh\星际出击yjh\星际出击yjh\PlaneWar.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\StarAttach.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\StarAttach.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Ball.cpp Blood.cpp Bomb.cpp Boss.cpp ClassView.cpp Enemy.cpp Explosion.cpp FileView.cpp GameObject.cpp MainFrm.cpp MyDialog.cpp MyPlane.cpp OutputWnd.cpp PlaneWar.cpp PlaneWarDoc.cpp PlaneWarView.cpp PropertiesWnd.cpp RestartDialog.cpp Scene.cpp ViewTree.cpp
+         ViewTree.cpp
+         Scene.cpp
+         RestartDialog.cpp
+         PropertiesWnd.cpp
+         PlaneWarView.cpp
+         PlaneWarDoc.cpp
+         PlaneWar.cpp
+         OutputWnd.cpp
+         MyPlane.cpp
+         MyDialog.cpp
+         MainFrm.cpp
+     1>i:\星际出击yjh\星际出击yjh\星际出击yjh\mainfrm.cpp(199): warning C4101: “bNameValid”: 未引用的局部变量
+         GameObject.cpp
+         FileView.cpp
+         Explosion.cpp
+         Enemy.cpp
+         ClassView.cpp
+         Boss.cpp
+         Bomb.cpp
+         Blood.cpp
+         Ball.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0804" /IDebug\ /nologo /fo"Debug\PlaneWar.res" PlaneWar.rc 
+       Link:
+         D:\Microsoft Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\x64\Debug\StarAttach.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\x64\Debug\StarAttach.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\x64\Debug\StarAttach.lib" /MACHINE:X86 Debug\PlaneWar.res
+         Debug\Ball.obj
+         Debug\Blood.obj
+         Debug\Bomb.obj
+         Debug\Boss.obj
+         Debug\ClassView.obj
+         Debug\Enemy.obj
+         Debug\Explosion.obj
+         Debug\FileView.obj
+         Debug\GameObject.obj
+         Debug\MainFrm.obj
+         Debug\MyDialog.obj
+         Debug\MyPlane.obj
+         Debug\OutputWnd.obj
+         Debug\PlaneWar.obj
+         Debug\PlaneWarDoc.obj
+         Debug\PlaneWarView.obj
+         Debug\PropertiesWnd.obj
+         Debug\RestartDialog.obj
+         Debug\Scene.obj
+         Debug\stdafx.obj
+         Debug\ViewTree.obj
+         LINK : 没有找到 .\x64\Debug\StarAttach.exe 或上一个增量链接没有生成它；正在执行完全链接
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         PlaneWar.vcxproj -> I:\星际出击yjh\星际出击yjh\星际出击yjh\.\x64\Debug\StarAttach.exe
+     1>已完成生成项目“I:\星际出击yjh\星际出击yjh\星际出击yjh\PlaneWar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:59.57

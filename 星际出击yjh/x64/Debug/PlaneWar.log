@@ -1,0 +1,60 @@
+﻿生成启动时间为 2017/12/25 14:21:41。
+     1>项目“F:\星际出击\星际出击\星际出击\PlaneWar.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\StarAttach.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\StarAttach.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Ball.cpp Blood.cpp Bomb.cpp Boss.cpp ClassView.cpp Enemy.cpp Explosion.cpp FileView.cpp GameObject.cpp MainFrm.cpp MyDialog.cpp MyPlane.cpp OutputWnd.cpp PlaneWar.cpp PlaneWarDoc.cpp PlaneWarView.cpp PropertiesWnd.cpp RestartDialog.cpp Scene.cpp ViewTree.cpp
+         ViewTree.cpp
+         Scene.cpp
+         RestartDialog.cpp
+         PropertiesWnd.cpp
+         PlaneWarView.cpp
+         PlaneWarDoc.cpp
+         PlaneWar.cpp
+         OutputWnd.cpp
+         MyPlane.cpp
+         MyDialog.cpp
+         MainFrm.cpp
+     1>MainFrm.cpp(199): warning C4101: “bNameValid”: 未引用的局部变量
+         GameObject.cpp
+         FileView.cpp
+         Explosion.cpp
+         Enemy.cpp
+         ClassView.cpp
+         Boss.cpp
+         Bomb.cpp
+         Blood.cpp
+         Ball.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\PlaneWar.res" PlaneWar.rc 
+       Link:
+         D:\Microsoft Visual Studio 2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\x64\Debug\StarAttach.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\Microsoft Visual Studio 2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\x64\Debug\StarAttach.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\x64\Debug\StarAttach.lib" /MACHINE:X64 x64\Debug\PlaneWar.res
+         x64\Debug\Ball.obj
+         x64\Debug\Blood.obj
+         x64\Debug\Bomb.obj
+         x64\Debug\Boss.obj
+         x64\Debug\ClassView.obj
+         x64\Debug\Enemy.obj
+         x64\Debug\Explosion.obj
+         x64\Debug\FileView.obj
+         x64\Debug\GameObject.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\MyDialog.obj
+         x64\Debug\MyPlane.obj
+         x64\Debug\OutputWnd.obj
+         x64\Debug\PlaneWar.obj
+         x64\Debug\PlaneWarDoc.obj
+         x64\Debug\PlaneWarView.obj
+         x64\Debug\PropertiesWnd.obj
+         x64\Debug\RestartDialog.obj
+         x64\Debug\Scene.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\ViewTree.obj
+         PlaneWar.vcxproj -> F:\星际出击\星际出击\星际出击\.\x64\Debug\StarAttach.exe
+     1>已完成生成项目“F:\星际出击\星际出击\星际出击\PlaneWar.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.23
